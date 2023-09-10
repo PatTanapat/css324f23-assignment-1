@@ -16,7 +16,7 @@ def successors(s):
                yield ((0,y+x,z),x)
         if z<3:
              if x>vz:
-               yield ((x-vz,5,z),vz)  
+               yield ((x-vz,y,3),vz)  
              else:
                yield ((0,y,x+z),x)
     if y>0:
